@@ -1,0 +1,4 @@
+(executable
+ (public_name wallust-theme-previews)
+ (name main)
+ (libraries unix str wallust_theme_previews))
