@@ -1,0 +1,13 @@
+#+title: wallust-theme-previews
+#+author: Gabriel
+
+* Usage
+** To print RGB for all Wallust themes
+~wallust-theme-previews all~
+** To print RGB for single Wallust theme
+~wallust-theme-previews <theme-name>~
+- Note, theme name must be as it appears in ~wallust theme list~
+  
+* TODO
++ There is still some stdout from ~wallust~ that I would like to remove for easier parsing
++ There is a bug in ~wallust-theme-previews all~ where it isn't excluding the word "Extra:" in ~wallust theme list~ stdout
